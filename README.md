@@ -3,7 +3,10 @@
 Câu 1.
 
 - Chạy vòng lặp qua training data
-  - Tìm training data có điểm lớn nhất
+  - Tìm training label có điểm lớn nhất
+  - Nếu y_value != trainingLabels[i]:
+      self.weights[trainingLabels[i]] += trainingData[i]
+      self.weights[y_value] -= trainingData[i]
 
 Câu 2.
 
