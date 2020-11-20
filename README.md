@@ -17,13 +17,13 @@ Câu 2.
 
 Câu 3.
 
-- Loop
+- Loop CGrid
 - Làm tưởng tự với câu 1
 - Phần cập nhật: theo phần mô tả của tài liệu
   - Check accuracy:
   - 2 vòng loop lồng nhau trên validationData -> validationLabels
   - Tìm labelMax -> Tính tổng số labelMax = validationLabels[i]
-  - Cập nhật weights = gridWeights[Cmax]
+  - Cập nhật finalWeights = weights[Cmax]
 
 Câu 4.
 - Chạy loop (x -> DIGIT_DATUM_WIDTH, y -> DIGIT_DATUM_HEIGHT)
