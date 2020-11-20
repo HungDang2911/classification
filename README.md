@@ -26,10 +26,9 @@ Câu 3.
   - Cập nhật weights = gridWeights[Cmax]
 
 Câu 4.
-Chạy loop (x -> DIGIT_DATUM_WIDTH, y -> DIGIT_DATUM_HEIGHT)
-Nếu (x, y) là khoảng trắng và chưa thăm: thêm vào thăm, gọi hàm determineWhiteRegion(), số vùng trắng += 1
-Hàm determineWhiteRegion(): sử dụng BFS để tìm khoảng trắng liên tiếp từ vị trí hiện tại
-Cập nhật features[số vùng trắng] = 1, còn lại features = 0
+- Chạy loop (x -> DIGIT_DATUM_WIDTH, y -> DIGIT_DATUM_HEIGHT)
+- Nếu (x, y) là khoảng trắng và chưa thăm: thêm vào thăm, gọi hàm dfs(), số vùng trắng += 1
+- Cập nhật features
 
 Câu 5.
 
